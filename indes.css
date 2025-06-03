@@ -1,0 +1,318 @@
+.logo-text {
+  font-family: "Playfair Display", serif;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 2%;
+}
+
+.nav-links {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%; /* same as 1 or 16px here */
+  letter-spacing: 0.02em; /* 2% = 0.02em */
+}
+.nav-links li a:hover {
+  color: #ffcb0a;
+}
+
+.nav {
+  background-color: black !important;
+  border-radius: 70px;
+  position: absolute;
+  top: 21px;
+  margin-left: 16px;
+  margin-right: 37px;
+  height: 80px !important;
+  max-width: 1366px;
+  height: 1024px;
+
+}
+
+.icons {
+  width: 23.94px;
+  height: 24.03px;
+  border-radius: 46.29px;
+  border: 0.8px solid var(--Colors-Neutral-200, #e8e8e8);
+  padding: 4.79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e8e8e8;
+  font-size: 12px;
+}
+.icons:hover {
+  background-color: #ffcb0a;
+}
+.carousel-text {
+  font-family: "Playfair Display", serif;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 2%;
+}
+
+.carousel-btn {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%; /* equals 16px here */
+  letter-spacing: 0.02em; /* 2% = 0.02em */
+  width: 150px;
+  height: 48px;
+  border-radius: 96px;
+  gap: 8px; /* works if button has flex children */
+  padding: 14px 52px; /*top/bottom 14px, left/right 52px */
+  position: relative;
+  top: 520px; /* only if you want fixed position */
+  left: 1204px;
+  cursor: pointer;
+  background-color: #ffd700; /* yellow color, adjust if needed */
+  color: white;
+  border: none;
+  display: flex; /* needed for gap */
+  align-items: center; /* vertically center content */
+  justify-content: center; /* horizontally center content */
+}
+.carousel-btn span {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.specialities {
+  height: 993px;
+  max-width: 1440px;
+  background-color: rgba(255, 203, 10, 0.1);
+}
+.specialities span {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(74, 74, 74, 1);
+  position: relative;
+  top: 85px;
+  max-width: 500px;
+  height: 53px;
+  left: 76.5px;
+ 
+}
+
+.specialities .line-1 {
+  position: relative;
+  top: 104px;
+  margin-left: 70px;
+}
+.specialities .line-2 {
+    position: relative;
+    top: 104px;
+    margin-left: 150px;
+  }
+
+.specialities .ani1 {
+  height: 480px;
+  width: 1240;
+  position: absolute;
+  top: 886px;
+  left: 100px;
+  
+}
+
+.ani1 img{
+    width: 200px;
+}
+
+  .gallery-img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    transition: width 0.5s ease;
+    border-radius: 10px;
+  }
+
+  .gallery-img.active {
+    width: 400px;
+  }
+
+
+
+
+
+.gallery-img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    transition: width 0.6s ease;
+    transform-origin: right center;
+    border-radius: 10px;
+  }
+  
+  .gallery-item .overlay {
+    position: absolute;
+    bottom: 50px;
+    left: 90px;
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Playfair Display", serif;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-transform: uppercase;
+  }
+  
+  .gallery-item.active .gallery-img {
+    width: 400px;
+  }
+  
+  .gallery-item.active .overlay {
+    opacity: 1;
+  }
+  
+  .fun{
+    
+    position: relative;
+    left: -48px;
+    padding-right: 20px;
+    
+  }
+  .fun h3 {
+    padding-left: 40px;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: underline rgba(255, 203, 10, 1);
+    
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 32px;
+  }
+  .fun p{
+    background-color: rgba(255, 203, 10, 0.1);
+    padding: 20px 20px 20px 40px ;
+    color: rgba(74, 74, 74, 1);
+    font-weight: 400;
+    /* line-height: 28px; */
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  .vido{
+    height: 467px;
+
+  }
+
+
+
+
+
+  .slider {
+    width: 1438px;
+    height: 582px;
+    position: relative;
+    top:850px;
+    background-color: rgba(255, 203, 10, 0.1);
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    scroll-snap-type: x mandatory;
+  }
+  .slider-track {
+    display: flex;
+    animation: scroll-left 30s linear infinite;
+    width: max-content;
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+/* Hide scrollbars everywhere */
+* {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE/Edge */
+  }
+  *::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+  
+  .slide-1 {
+    flex: 0 0 auto;
+    width: 473px;
+    height: 275px;
+    background-color: rgba(255, 238, 173, 1);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    scroll-snap-align: start;
+  }
+
+  .slide-inner {
+    width: 441px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px; /* Simulating Spacing/Gap/2XL */
+  }
+
+  .review-content {
+    width: 441px;
+    height: 153px;
+    border: 1px solid #999; /* Stroke/S */
+    border-radius: 16px; /* Radius/2XL */
+    padding: 24px; /* Spacing/Padding/2XL */
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+
+  .author-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .author-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .author-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .author-name {
+    font-weight: bold;
+  }
+
+  .author-desc {
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  .stars {
+    margin-top: 4px;
+    color: gold;
+    font-size: 1.1em;
+  }
